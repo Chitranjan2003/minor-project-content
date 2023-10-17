@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grains Website Design</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+<header class="main">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Farmer's Friends </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">Services</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+       
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="https://th.bing.com/th/id/R.efcc74041d3c5134454f9a066e91c170?rik=8UbWl%2bQ%2bvqkrjQ&riu=http%3a%2f%2fatlantablackstar.com%2fwp-content%2fuploads%2f2013%2f11%2fwheat.jpg&ehk=D28RYrooySFeGgI6GYdf8YMiXrTxqoTdd%2frIX%2bixbV0%3d&risl=&pid=ImgRaw&r=0" alt="">
+            <div class="content">
+                <h3>Wheat</h3>
+                <span class="price">Rs50/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="https://th.bing.com/th/id/OIP.HBO7Sbfwr0G9nm7iw1qy5QHaE7?pid=ImgDet&rs=1" alt="">
+            <div class="content">
+                <h3>Pulses</h3>
+                <span class="price">Rs120/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="https://assets.thehansindia.com/h-upload/feeds/2019/07/13/1600x960_195638-paddy-crop.jpg" alt="">
+            <div class="content">
+                <h3>Rice</h3>
+                <span class="price">Rs/50-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : Rs220/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Healthy and <span>organic</span> Grains for your</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- Service section starts  -->
+
+<section class="Services" id="features">
+
+    <h1 class="heading"> our <span>Services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.oiSSGntiNAQnFZ3V_iMOeAHaFP?w=263&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <h3>100% organic</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://www.chameleonjohn.com/blog/wp-content/uploads/2014/06/free-delivery.png" alt="">
+            <h3>free delivery</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.jp51jFK-_50rV5cenYOb3gHaE7?w=227&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <h3>easy payments</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Service section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="./rice imag.jpg" alt="">
+                <h3>fresh Rice</h3>
+                <div class="price"> Rs20/- -40/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.TSPwaK5p92h4Lqy9AwziOQHaFo?w=265&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>fresh wheat</h3>
+                <div class="price"> Rs30/- - 80/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP._3MmDgw33YoIeN23H3DhUAHaDt?w=316&h=174&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>fresh gram</h3>
+                <div class="price"> Rs100/- - 160/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.dqXXd20HbAB54HQnbIuUZwHaFj?pid=ImgDet&rs=1" alt="">
+                <h3>fresh Soyabean</h3>
+                <div class="price"> Rs100/- - 200/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.2dKrFjYxGztJ68UIxikFPQHaGE?w=221&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>fresh corn</h3>
+                <div class="price"> Rs100/- - 180/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.U1uANODiu_HCs3bH43pH4QHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>fresh Brown Mustard</h3>
+                <div class="price"> Rs150/- - 200/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.1CiblXdmYKEfs1g-GeZY1QHaE8?w=264&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3> Black Sesame</h3>
+                <div class="price"> Rs300/- - 400/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.GHU-CkgiWm9lNjhM86WKnAHaE8?w=255&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>White Sesame</h3>
+                <div class="price"> Rs250/- - 350/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span>categories</span> </h1>
+
+    <div class="box-container">
+
+        
+
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.jF4p-k0nUO6MJVb-InuUzAHaEK?w=324&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <h3>Organic Grains</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.EZavOTj7SG4CkJZcDGvpIwHaD4?pid=ImgDet&rs=1" alt="">
+            <h3> Spices</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Paras Turkar</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Aman Neware</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0aW5kaWFuJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Chitresh Patle</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBvcnRyYWl0JTIwaW5kaWFuJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Ishika Raut</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> grains <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +919098593294 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +917869144009 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> Grains@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Bhopal, India - 462022 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Services </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+           
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> SoIT Students </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
